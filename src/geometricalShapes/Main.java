@@ -46,7 +46,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Answer 1-4");
+                    System.out.println("\nAnswer 1-4");
                     break;
             }
 
@@ -89,7 +89,7 @@ public class Main {
             }
 
         } else {
-            System.out.println("Start over again");
+            System.out.println("\nStart over again");
             goAgain = true;
         }
         return goAgain;
@@ -133,7 +133,7 @@ public class Main {
                 goAgain = false;
             }
         } else {
-            System.out.println("Start over again");
+            System.out.println("\nStart over again");
             goAgain = true;
         }
         return goAgain;
@@ -184,7 +184,7 @@ public class Main {
                 goAgain = false;
             }
         } else {
-            System.out.println("Start over again");
+            System.out.println("\nStart over again");
             goAgain = true;
         }
         return goAgain;
