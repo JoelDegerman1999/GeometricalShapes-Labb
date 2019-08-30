@@ -47,6 +47,7 @@ public class Main {
 
                 default:
                     System.out.println("Answer 1-4");
+                    break;
             }
 
         } while (goAgain != false);
