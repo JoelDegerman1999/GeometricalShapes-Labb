@@ -155,7 +155,7 @@ public class Main {
         System.out.print("\nInput side two: ");
         int side2 = sc.nextInt();
 
-        Triangle triangle = new Triangle(base, height, side1, side2);
+        Triangle triangle = new Triangle(base, height);
 
         System.out.println("\nWould you like to calculate area or circumference?\n1. Area\n2. Circumfrence");
         System.out.print("\nInput a choice: ");
@@ -163,17 +163,6 @@ public class Main {
         int calcChoice = sc.nextInt();
         if (calcChoice == 1) {
             System.out.println("\nThe triangle area is :" + triangle.getArea());
-
-            System.out.println("\nWant to calculate again?\n1. Yes \n2. No");
-            System.out.print("\nChoice: ");
-            int goAgainInt = sc.nextInt();
-            if (goAgainInt == 1) {
-                goAgain = true;
-            } else {
-                goAgain = false;
-            }
-        } else if (calcChoice == 2) {
-            System.out.println("\nThe triangle circumference is: " + triangle.getCircumference());
 
             System.out.println("\nWant to calculate again?\n1. Yes \n2. No");
             System.out.print("\nChoice: ");
